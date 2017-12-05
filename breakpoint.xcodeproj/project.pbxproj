@@ -13,6 +13,7 @@
 		CEA0CCB41FD4831B00891D19 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0CCB31FD4831B00891D19 /* LoginVC.swift */; };
 		CEA0CCB61FD4849C00891D19 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0CCB51FD4849C00891D19 /* InsetTextField.swift */; };
 		CEA0CCB81FD72EA200891D19 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0CCB71FD72EA200891D19 /* ShadowView.swift */; };
+		CEA0CCBA1FD730DC00891D19 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0CCB91FD730DC00891D19 /* AuthService.swift */; };
 		CEF0AFE31FD44C3E00FA2C0E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0AFE21FD44C3E00FA2C0E /* AppDelegate.swift */; };
 		CEF0AFE51FD44C3E00FA2C0E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0AFE41FD44C3E00FA2C0E /* FirstViewController.swift */; };
 		CEF0AFE71FD44C3E00FA2C0E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF0AFE61FD44C3E00FA2C0E /* SecondViewController.swift */; };
@@ -31,6 +32,7 @@
 		CEA0CCB31FD4831B00891D19 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		CEA0CCB51FD4849C00891D19 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
 		CEA0CCB71FD72EA200891D19 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		CEA0CCB91FD730DC00891D19 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		CEF0AFDF1FD44C3E00FA2C0E /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEF0AFE21FD44C3E00FA2C0E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEF0AFE41FD44C3E00FA2C0E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 			isa = PBXGroup;
 			children = (
 				CEA0CCAF1FD453FA00891D19 /* DataService.swift */,
+				CEA0CCB91FD730DC00891D19 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 				CEA0CCB21FD482E400891D19 /* AuthVC.swift in Sources */,
 				CEF0AFE71FD44C3E00FA2C0E /* SecondViewController.swift in Sources */,
 				CEA0CCB41FD4831B00891D19 /* LoginVC.swift in Sources */,
+				CEA0CCBA1FD730DC00891D19 /* AuthService.swift in Sources */,
 				CEF0AFE31FD44C3E00FA2C0E /* AppDelegate.swift in Sources */,
 				CEA0CCB81FD72EA200891D19 /* ShadowView.swift in Sources */,
 				CEF0AFE51FD44C3E00FA2C0E /* FirstViewController.swift in Sources */,
