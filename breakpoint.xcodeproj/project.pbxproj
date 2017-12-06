@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3283B9E3337AC026ABFDE6A6 /* Pods_breakpoint.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AF7C27C5EB66AD637C9A54 /* Pods_breakpoint.framework */; };
+		CE311DC81FD8937700B40E01 /* MeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE311DC71FD8937700B40E01 /* MeVC.swift */; };
 		CEA0CCB01FD453FA00891D19 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0CCAF1FD453FA00891D19 /* DataService.swift */; };
 		CEA0CCB21FD482E400891D19 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0CCB11FD482E400891D19 /* AuthVC.swift */; };
 		CEA0CCB41FD4831B00891D19 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0CCB31FD4831B00891D19 /* LoginVC.swift */; };
@@ -27,6 +28,7 @@
 		0395C8F7FF554B427EF0941E /* Pods-breakpoint.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.release.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.release.xcconfig"; sourceTree = "<group>"; };
 		4CD651D2E3AC334A65EE8D2A /* Pods-breakpoint.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-breakpoint.debug.xcconfig"; path = "Pods/Target Support Files/Pods-breakpoint/Pods-breakpoint.debug.xcconfig"; sourceTree = "<group>"; };
 		A0AF7C27C5EB66AD637C9A54 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE311DC71FD8937700B40E01 /* MeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeVC.swift; sourceTree = "<group>"; };
 		CEA0CCAF1FD453FA00891D19 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		CEA0CCB11FD482E400891D19 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		CEA0CCB31FD4831B00891D19 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				CEF0AFE61FD44C3E00FA2C0E /* GroupsVC.swift */,
 				CEA0CCB11FD482E400891D19 /* AuthVC.swift */,
 				CEA0CCB31FD4831B00891D19 /* LoginVC.swift */,
+				CE311DC71FD8937700B40E01 /* MeVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE311DC81FD8937700B40E01 /* MeVC.swift in Sources */,
 				CEA0CCB21FD482E400891D19 /* AuthVC.swift in Sources */,
 				CEF0AFE71FD44C3E00FA2C0E /* GroupsVC.swift in Sources */,
 				CEA0CCB41FD4831B00891D19 /* LoginVC.swift in Sources */,
