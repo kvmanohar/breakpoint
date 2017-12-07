@@ -38,15 +38,36 @@ class DataService {
     
     func uploadPost(withMessage message: String, forUID uid: String, withGroupKey groupKey: String?,
                     sendComplete: @escaping (_ status:Bool) -> () ) {
-        
         if groupKey != nil {
             //send to groups ref
         } else {
             REF_FEED.childByAutoId().updateChildValues(["content": message, "sender": uid])
             sendComplete(true)
         }
-        
     }//uploadPost
+    
+    func getAllFeedMessages(handler: @escaping (_ message:[Message])->()) {
+        
+        var messageArray = [Message]()
+        
+        REF_FEED.observeSingleEvent(of: .value) { (feedMessageSnapshot)
+            in
+            
+            guard let feedMessageSnapshot = feedMessageSnapshot.children.allObjects as?
+                [DataSnapshot] else { return }
+            
+            for message in feedMessageSnapshot {
+                let content = message.childSnapshot(forPath: "content").value as! String
+                let senderId = message.childSnapshot(forPath: "sender").value as! String
+                
+                let message = Message(content: content, senderId: senderId)
+                messageArray.append(message)
+            }
+            
+            handler(messageArray)
+        }
+    }// allFeedMessages
+    
     
     
 }
