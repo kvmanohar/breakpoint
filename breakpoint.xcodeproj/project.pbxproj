@@ -14,6 +14,7 @@
 		CE311DCA1FD8974F00B40E01 /* CreatePostVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE311DC91FD8974F00B40E01 /* CreatePostVC.swift */; };
 		CE311DCC1FD89D1900B40E01 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE311DCB1FD89D1900B40E01 /* UIViewExt.swift */; };
 		CE885A891FDACECA001C2C2E /* CreateGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE885A881FDACECA001C2C2E /* CreateGroupVC.swift */; };
+		CE885A8B1FDADF4C001C2C2E /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE885A8A1FDADF4C001C2C2E /* UserCell.swift */; };
 		CEA0CCB01FD453FA00891D19 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0CCAF1FD453FA00891D19 /* DataService.swift */; };
 		CEA0CCB21FD482E400891D19 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0CCB11FD482E400891D19 /* AuthVC.swift */; };
 		CEA0CCB41FD4831B00891D19 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA0CCB31FD4831B00891D19 /* LoginVC.swift */; };
@@ -39,6 +40,7 @@
 		CE311DC91FD8974F00B40E01 /* CreatePostVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostVC.swift; sourceTree = "<group>"; };
 		CE311DCB1FD89D1900B40E01 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UIViewExt.swift; path = breakpoint/Extensions/UIViewExt.swift; sourceTree = SOURCE_ROOT; };
 		CE885A881FDACECA001C2C2E /* CreateGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupVC.swift; sourceTree = "<group>"; };
+		CE885A8A1FDADF4C001C2C2E /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 		CEA0CCAF1FD453FA00891D19 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		CEA0CCB11FD482E400891D19 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
 		CEA0CCB31FD4831B00891D19 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				CEA0CCB51FD4849C00891D19 /* InsetTextField.swift */,
 				CEA0CCB71FD72EA200891D19 /* ShadowView.swift */,
 				CE149BFE1FD9D58800538446 /* FeedCell.swift */,
+				CE885A8A1FDADF4C001C2C2E /* UserCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -302,6 +305,7 @@
 				CEA0CCB41FD4831B00891D19 /* LoginVC.swift in Sources */,
 				CEA0CCBA1FD730DC00891D19 /* AuthService.swift in Sources */,
 				CEF0AFE31FD44C3E00FA2C0E /* AppDelegate.swift in Sources */,
+				CE885A8B1FDADF4C001C2C2E /* UserCell.swift in Sources */,
 				CE885A891FDACECA001C2C2E /* CreateGroupVC.swift in Sources */,
 				CEA0CCB81FD72EA200891D19 /* ShadowView.swift in Sources */,
 				CE311DCA1FD8974F00B40E01 /* CreatePostVC.swift in Sources */,
