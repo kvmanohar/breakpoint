@@ -18,6 +18,8 @@ class CreateGroupVC: UIViewController {
     @IBOutlet weak var tableView: UITableView!
     
     var emailArray = [String]()
+    var chosenUserArray = [String]()
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +30,11 @@ class CreateGroupVC: UIViewController {
         
     }
 
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        doneBtn.isHidden = true
+    }
+    
     @objc func textFieldDidChange(){
         if emailSearchTextField.text == "" {
             emailArray = []
@@ -70,9 +77,32 @@ extension CreateGroupVC: UITableViewDelegate, UITableViewDataSource {
         
         let profileImage = UIImage(named: "defaultProfileImage")
         
-        cell.configureCell(profileImage: profileImage!, email: emailArray[indexPath.row], isSelected: true)
+        if chosenUserArray.contains(emailArray[indexPath.row]) {
+            cell.configureCell(profileImage: profileImage!, email: emailArray[indexPath.row], isSelected: true)
+        }else {
+            cell.configureCell(profileImage: profileImage!, email: emailArray[indexPath.row], isSelected: false)
+        }
         return cell
     }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let cell = tableView.cellForRow(at: indexPath) as? UserCell else { return }
+        
+        if !chosenUserArray.contains(cell.emailLbl.text!) {
+            chosenUserArray.append(cell.emailLbl.text!)
+            groupMemebersLable.text = chosenUserArray.joined(separator: ", ")
+            doneBtn.isHidden = false
+        } else {
+            chosenUserArray = chosenUserArray.filter({$0 != cell.emailLbl.text!})
+            if chosenUserArray.count >= 1 {
+                groupMemebersLable.text = chosenUserArray.joined(separator: ", ")
+            } else {
+                groupMemebersLable.text = "add people to your group "
+                doneBtn.isHidden = true
+            }
+        }
+    }
+    
 }
 
 
