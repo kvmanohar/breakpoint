@@ -29,6 +29,7 @@
 		CEF0AFEC1FD44C3E00FA2C0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEF0AFEB1FD44C3E00FA2C0E /* Assets.xcassets */; };
 		CEF0AFEF1FD44C3E00FA2C0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEF0AFED1FD44C3E00FA2C0E /* LaunchScreen.storyboard */; };
 		CEF0AFFC1FD4502400FA2C0E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CEF0AFFB1FD4502400FA2C0E /* GoogleService-Info.plist */; };
+		CEF6F0411FE06AB8002CEBAC /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6F0401FE06AB8002CEBAC /* Group.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		CEF0AFEE1FD44C3E00FA2C0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CEF0AFF01FD44C3E00FA2C0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEF0AFFB1FD4502400FA2C0E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CEF6F0401FE06AB8002CEBAC /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				CE149C001FD9DCD500538446 /* Message.swift */,
+				CEF6F0401FE06AB8002CEBAC /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -309,6 +312,7 @@
 				CEA0CCB41FD4831B00891D19 /* LoginVC.swift in Sources */,
 				CEA0CCBA1FD730DC00891D19 /* AuthService.swift in Sources */,
 				CEF0AFE31FD44C3E00FA2C0E /* AppDelegate.swift in Sources */,
+				CEF6F0411FE06AB8002CEBAC /* Group.swift in Sources */,
 				CE885A8B1FDADF4C001C2C2E /* UserCell.swift in Sources */,
 				CE885A891FDACECA001C2C2E /* CreateGroupVC.swift in Sources */,
 				CEA0CCB81FD72EA200891D19 /* ShadowView.swift in Sources */,
