@@ -32,6 +32,7 @@
 		CEF6F0411FE06AB8002CEBAC /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6F0401FE06AB8002CEBAC /* Group.swift */; };
 		CEF6F0431FE07D2B002CEBAC /* GroupFeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6F0421FE07D2B002CEBAC /* GroupFeedCell.swift */; };
 		CEF6F0451FE07D89002CEBAC /* GroupFeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6F0441FE07D89002CEBAC /* GroupFeedVC.swift */; };
+		CEF6F0471FE41B2B002CEBAC /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF6F0461FE41B2B002CEBAC /* UIViewControllerExt.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +65,7 @@
 		CEF6F0401FE06AB8002CEBAC /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		CEF6F0421FE07D2B002CEBAC /* GroupFeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedCell.swift; sourceTree = "<group>"; };
 		CEF6F0441FE07D89002CEBAC /* GroupFeedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupFeedVC.swift; sourceTree = "<group>"; };
+		CEF6F0461FE41B2B002CEBAC /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				CE311DCB1FD89D1900B40E01 /* UIViewExt.swift */,
+				CEF6F0461FE41B2B002CEBAC /* UIViewControllerExt.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -314,6 +317,7 @@
 				CE311DC81FD8937700B40E01 /* MeVC.swift in Sources */,
 				CE885A8D1FDF20A9001C2C2E /* GroupCell.swift in Sources */,
 				CEA0CCB21FD482E400891D19 /* AuthVC.swift in Sources */,
+				CEF6F0471FE41B2B002CEBAC /* UIViewControllerExt.swift in Sources */,
 				CEF0AFE71FD44C3E00FA2C0E /* GroupsVC.swift in Sources */,
 				CEF6F0451FE07D89002CEBAC /* GroupFeedVC.swift in Sources */,
 				CEF6F0431FE07D2B002CEBAC /* GroupFeedCell.swift in Sources */,
